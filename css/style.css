@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.contenedor {
+  text-align: center;
+}
+
+h1 {
+  color: #00ffcc;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.marcador {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #ff0055;
+}
+
+canvas {
+  background-color: #000;
+  border: 4px solid #fff;
+  box-shadow: 0 0 20px rgba(0, 255, 204, 0.3);
+}
+
+.instrucciones {
+  margin-top: 15px;
+  color: #888;
+  font-size: 0.9rem;
+}
